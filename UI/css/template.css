@@ -1,6 +1,6 @@
 .sign {
-    background: #C2B298;
-    border: 1px solid #C2B298;;
+    background: rgb(12, 12, 11);
+    border: 1px solid rgb(12, 12, 11)8;
     border-radius: 10px;
     height: auto;
     margin: 20px auto 0;
@@ -17,10 +17,10 @@
   
   
   input[type="password"], input[type="text"] {
-      border: 1px solid rgba(8, 8, 8, 0.3);
+      border: 1px solid rgb(12, 12, 11)8;
       border-radius: 18px;
       box-sizing: border-box;
-      color:rgba(8, 8, 8, 0.3);
+      color:rgba(2, 2, 2, 0.863);
       height: 39px;
       margin: 31px 0 0 0;
       
@@ -35,7 +35,7 @@
     
   
     .links {
-      color: rgb(16, 17, 16);
+      color:  white;
       display: block;
       float: right;
       font: 16px/1 sans-serif;
@@ -46,7 +46,7 @@
       text-align:center;
       transition: color .4s;
     }
-    .links:hover { color:#C2B298;}
+    .links:hover { color:white}
     
     
     input[type="submit"] {
@@ -60,7 +60,7 @@
       text-decoration:none;
       text-transform:uppercase;
       text-align:center;
-      text-shadow:1px 1px 0px #C2B298;
+      text-shadow:1px 1px 0px #ddd;;
       padding-top:14px;
       margin: 29px 0 0 29px;
       position: relative;

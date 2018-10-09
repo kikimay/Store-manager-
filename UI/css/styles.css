@@ -11,7 +11,7 @@
 
 body{
 
-  background: url();
+  background:url(../images/image\ background.png);
       
   margin: 0 auto;
   text-align: center;
@@ -21,8 +21,8 @@ body{
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+  background-color: #ddd;
+  padding: 30px 30px;
 }
 
 .header a {
@@ -31,13 +31,13 @@ body{
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 40px; 
   line-height: 25px;
   border-radius: 4px;
 }
 
 .header a.logo {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   font-family: fantasy;
 }
@@ -49,22 +49,21 @@ body{
 }
 
 .header a.active {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #ddd;
+  color: #ddd;
 }
 
 .header-right {
   float: right;
 }
 .content{
-    background: rgb(182, 180, 212);
+    background: rgb(17, 16, 19);
     opacity: 0.7;
 
 
 }
 .content1{
-  background: rgb(223, 222, 231);
-  
+  background: rgb(17, 16, 19);
 }
 
 footer {
@@ -84,6 +83,7 @@ footer {
   
   footer .copyright{
     font: 800;
+    color: white;
     float: right;
   }
   
