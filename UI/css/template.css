@@ -35,7 +35,7 @@
     
   
     .links {
-      color:  white;
+      color:  #ddd;
       display: block;
       float: right;
       font: 16px/1 sans-serif;
@@ -46,7 +46,7 @@
       text-align:center;
       transition: color .4s;
     }
-    .links:hover { color:white}
+    .links:hover { color:#ddd}
     
     
     input[type="submit"] {
