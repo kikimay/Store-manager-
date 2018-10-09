@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+   
+        <title>store-manager</title>
+        
+        <script>
+                function startTime() {
+                    var today = new Date();
+                    var h = today.getHours();
+                    var m = today.getMinutes();
+                    var s = today.getSeconds();
+                    m = checkTime(m);
+                    s = checkTime(s);
+                    document.getElementById('txt').innerHTML =
+                    h + ":" + m + ":" + s;
+                    var t = setTimeout(startTime, 500);
+                }
+                function checkTime(i) {
+                    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                    return i;
+                }
+                </script>
+   
+    
+
+    <body onload="startTime()">
+            
+                <div class="header">
+                    <a href="landing.html" class="logo">STORE-MANAGER-APP</a>
+                    <div class="header-right">
+                        <a class = "IN" href = "../UI/attedant/login.html">Admin </a>
+                        <a class = "IN" href = "../UI/attedant/login.html">Attedant</a>
+                    </div>
+                </div>
+                  
+                <div class="content">
+            <div id="txt"></div>
+            
+        <div class="page headings">
+           
+            <h1><strong>STORE-MANAGER-APP</strong></h1>
+                
+            </div>
+            
+            </div>
+            
+
+        </body>
+
+
+        <footer>
+            <div class="copyright">
+                <p>
+                    &copy;KIKI ENTERPRISES
+                    2018
+                </p>
+            </div>
+             
+            <div class="logo">
+                <img src="../images/black logo.png" alt="logo" height="60" width="90">
+            </div>
+        </footer>
+    </html>
+    
+    
+
