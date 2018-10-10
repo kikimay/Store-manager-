@@ -13,6 +13,7 @@
       
   margin: 0 auto;
   text-align: center;
+  text-align: center;
   
 }
  .header {
@@ -41,54 +42,30 @@
   color: #ddd;
   opacity: 1;
 }
- .header a.active {
-  background-color: #ddd;
-  color: #ddd;
+
+ .header-right {
+  float: right;
+} 
+.sign { 
+font-weight: bold;
+font-size: 20px; 
+font-family: fantasy
+
+
+
 }
- 
 .content{
-    background: #ddd;
+   
     font-family: fantasy;
     font-weight: bold;
     font-size: 30px;
-    float: right;
      
  }
 .content1{
   background: rgb(17, 16, 19);
 }
-#welcome{
-  background: #ddd;
-  font-family: fantasy;
-  font-weight: bold;
-  font-size: 30px;
-  
-   
-}
-.links {
-  text-align: center;
-}
-
-.links button {
-  background-color: black;
-  color: azure;
-}
-
-.links button a:hover {
-  background-color: rgb(226, 188, 188);
-  color: azure;
-}
-
-.links button a {
-  text-decoration: none;
-  color: azure;
-  align-self: center;
-  font-family: fantasy;
-  font-size: 48px;
-}
-
  footer {
-    position: fixed;
+    position: relative;
     right: 2.5%;
     bottom: 0;
     left: 2.5%;
@@ -110,4 +87,18 @@
     font-size: 20px 
   }
   
+   
+  footer .logo{
+    float: left;
+    position:bottom;
+    
+   }
+
+  
+  footer .logo{
+    float: left;
+    position:bottom;
+    
+
+  }
   
