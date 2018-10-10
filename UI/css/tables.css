@@ -1,0 +1,29 @@
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 103%;
+}
+
+table td, table th {
+    border: 1px solid  black;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #ddd;
+    opacity: 1;
+}
+
+table tr:hover {
+    background-color: #ddd
+    
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ddd
+    
+    
+}
