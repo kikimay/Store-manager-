@@ -1,5 +1,5 @@
 sign {
-    background: rgb(12, 12, 11);
+    background: #ddd;
     border: 1px solid rgb(12, 12, 11)8;
     border-radius: 10px;
     height: auto;
@@ -11,6 +11,7 @@ sign {
     margin-top: -50px;
     margin-left: -100px;
     padding-bottom: 10px;
+    opacity: 0.8;
     
   }
   
