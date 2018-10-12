@@ -37,7 +37,7 @@ input[type="password"], input[type="text"] {
   .links {
     color:  #ddd;
     display: block;
-    float: right;
+    float: center;
     font: 16px/1 sans-serif;
     left: -19px;
     position: relative;
@@ -65,8 +65,9 @@ input[type="password"], input[type="text"] {
     margin: 29px 0 0 29px;
     position: relative;
     top: 76%;
-    left: 50%;
+    left: 45%;
     margin-top: 20px;
+    box-sizing: border-box;
     margin-left: -20px;
     cursor:pointer;
     border: none;  
