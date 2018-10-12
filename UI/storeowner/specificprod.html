@@ -24,22 +24,30 @@
              <h3>WRIST WATCH</h3>
              <div class="grid-item"> <img src="../images/3store.jpg" alt="item" height="150" width="350"><p>wrist watches@kes 290</p></div>
         
-                
-                <input type="submit" place value = "ADD-CART" onclick="ADDCART()"><br>
-                <input type="submit" place value = "DELETE" onclick="del()"><br>
+                <input type="submit" place value = "Inventory" onclick="inv()"><br>
+                <input type="submit" place value = "Add-cart" onclick="ADDCART()"><br>
+                <input type="submit" place value = "Delete" onclick="del()"><br>
                 </form>
                 
             </div>
+            <script>
+                function inv() {
+                    alert ("24 wrist watches in stock");
+                }
+                
+            </script>
             <script>
                 function ADDCART() {
                     alert ("product added to cart!");
                 }
                 
             </script>
+
             <script>
             function del() {
                     alert ("product deleted");
-                }</script>
+                }
+                </script>
                 
 
         
