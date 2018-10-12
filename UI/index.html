@@ -1,0 +1,80 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>store-manager</title>
+        <link rel="stylesheet" href="../UI/css/styles.css">
+        <link rel = "stylesheet" type="text/css" href="../UI/css/template.css">
+        
+    
+   </head>
+    
+        
+    
+
+    
+   <body onload="startTime()">
+
+                <div class="header">
+                    <a href="index.html" class="logo">STORE-MANAGER-APP</a>
+                    
+                    <div class="content">
+                            <div id="txt"></div>
+                            
+                    </div>
+
+                </div>
+                <br>
+                  
+                
+            <div id="welcome">
+                WELCOME:<br>
+                Please proceed to login:
+            </div><br><br>
+            
+        
+
+        <div class="links">
+                <button><a class = "IN" href = "../UI/storeowner/login.html">Admin </a></button>
+                <button><a class = "IN" href = "../UI/attedant/login.html">Attendant</a></button>
+            </div>
+           
+           
+            <script>
+                function startTime() {
+                    var today = new Date();
+                    var h = today.getHours();
+                    var m = today.getMinutes();
+                    var s = today.getSeconds();
+                    m = checkTime(m);
+                    s = checkTime(s);
+                    document.getElementById('txt').innerHTML =
+                    h + ":" + m + ":" + s;
+                    var t = setTimeout(startTime, 500);
+                }
+                function checkTime(i) {
+                    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                    return i;
+                }
+                </script>
+            
+          
+            
+
+        </body>
+       <br>
+        <footer>
+            <div class="copyright">
+                <p>
+                    &copy;Store manager
+                    2018
+                </p>
+                <br>
+            </div>
+             
+            
+        </footer>
+    
+    </html>
+
+    
+

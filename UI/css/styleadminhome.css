@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+  padding-bottom: 8px;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+ body{
+   background:rgb(67, 126, 72);
+      
+  margin: 0 auto;
+  text-align: center;
+  
+}
+ .table-heading{
+   image-resolution: #ddd;
+   opacity: 1;
+
+ }
+ .header {
+  overflow: hidden;
+  background-color: #ddd;
+  padding: 30px 30px;
+}
+ .header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 40px; 
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: fantasy
+}
+.header-right{
+  float: right;
+  font-size:40;
+  font-family: fantasy
+
+
+}
+ .header a.logo {
+  
+  font-size: 30px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+ .header a:hover {
+  background-color: black;
+  color: #ddd;
+  opacity: 1;
+}
+ .header a.active {
+  background-color: #ddd;
+  color: #ddd;
+}
+
+.content1{
+  background: rgb(17, 16, 19);
+}
+#welcome{
+  background: #ddd;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 30px;
+  
+   
+}
+.links {
+  text-align: center;
+}
+
+.links button {
+  background-color: black;
+  color: azure;
+}
+
+.links button a:hover {
+  background-color: rgb(226, 188, 188);
+  color: azure;
+}
+
+.links button a {
+  text-decoration: none;
+  color: azure;
+  align-self: center;
+  font-family: fantasy;
+  font-size: 48px;
+}
+
+ footer {
+    position: fixed;
+    right: 2.5%;
+    bottom: 0;
+    left: 2.5%;
+    height: auto;
+    padding: 5px;
+    padding-bottom: 0px;
+    
+   
+    font-family: sans-serif;
+    color: rgb(24, 19, 13);
+    text-align: left;
+  }
+  
+  footer .copyright{
+    font: 800;
+    color: #ddd;
+    float: right;
+    position:bottom;
+    font-size: 20px 
+  }
+  
+  

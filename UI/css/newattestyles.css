@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+  padding-bottom: 8px;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+ body{
+   background:rgb(67, 126, 72);
+      
+  margin: 0 auto;
+  text-align: center;
+  text-align: center;
+  
+  
+}
+ .header {
+  overflow: hidden;
+  background-color: #ddd;
+  padding: 30px 30px;
+}
+ .header a {
+  float: left;
+  color: black;
+  text-align: center;
+  
+  text-decoration: none;
+  font-size: 40px; 
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: fantasy
+}
+ .header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+ .header a:hover {
+  background-color: black;
+  color: #ddd;
+  opacity: 1;
+}
+
+ .header-right {
+  float: right;
+} 
+.sign { 
+font-weight: bold;
+font-size: 20px; 
+font-family: fantasy
+
+
+
+}
+.content{
+   
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+     
+ }
+.content1{
+  background: rgb(17, 16, 19);
+}
+ footer {
+    position: relative;
+    right: 2.5%;
+    bottom: 0;
+    left: 2.5%;
+    height: auto;
+    padding: 5px;
+    padding-bottom: 0px;
+    
+   
+    font-family: sans-serif;
+    color: rgb(24, 19, 13);
+    text-align: left;
+  }
+  
+  footer .copyright{
+    font: 800;
+    color: #ddd;
+    float: right;
+    position:bottom;
+    font-size: 20px 
+  }
+  
+   
+  footer .logo{
+    float: left;
+    position:bottom;
+    
+   }
+
+  
+  footer .logo{
+    float: left;
+    position:bottom;
+    
+
+  }
+  
