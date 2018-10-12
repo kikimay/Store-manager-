@@ -19,6 +19,7 @@
   overflow: hidden;
   background-color: #ddd;
   padding: 30px 30px;
+  opacity: 0.8;
 }
  .header a {
   float: left;
