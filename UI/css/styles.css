@@ -32,7 +32,7 @@
   font-family: fantasy
 }
  .header a.logo {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   font-family: fantasy;
 }
@@ -47,10 +47,10 @@
 }
  
 .content{
-    background: #ddd;
+    background: rgb(67, 126, 72);
     font-family: fantasy;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight:bolder;
+    font-size: 40px;
     float: right;
      
  }
@@ -75,7 +75,7 @@
 }
 
 .links button a:hover {
-  background-color: rgb(226, 188, 188);
+  background-color: rgb(67, 126, 72);
   color: azure;
 }
 
@@ -104,7 +104,7 @@
   
   footer .copyright{
     font: 800;
-    color: #ddd;
+    color: rgb(67, 126, 72);
     float: right;
     position:bottom;
     font-size: 20px 
