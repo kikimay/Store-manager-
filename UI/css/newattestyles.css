@@ -34,7 +34,7 @@
   font-family: fantasy
 }
  .header a.logo {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   font-family: fantasy;
 }
@@ -82,7 +82,7 @@ font-family: fantasy
   
   footer .copyright{
     font: 800;
-    color: #ddd;
+    color: rgb(67, 126, 72);
     float: right;
     position:bottom;
     font-size: 20px 

@@ -18,7 +18,7 @@ sign {
   
   
   input[type="password"], input[type="text"] {
-      border: 1px solid rgb(12, 12, 11)8;
+      border: 3px solid rgb(67, 126, 72);
       border-radius: 18px;
       box-sizing: border-box;
       color:rgba(2, 2, 2, 0.863);
@@ -61,7 +61,7 @@ sign {
       text-decoration:none;
       text-transform:uppercase;
       text-align:center;
-      text-shadow:1px 1px 0px #ddd;;
+      text-shadow:1px 1px 0px black;
       padding-top:14px;
       margin: 29px 0 0 29px;
       position: relative;
@@ -71,7 +71,7 @@ sign {
       margin-left: -20px;
       cursor:pointer;
       border: none;  
-      background-color: #000000;
+      background-color: rgb(67, 126, 72);
       background-image: linear-gradient(top,#000000,#000000);
       border-top-left-radius: 15px;
       border-top-right-radius: 15px;
